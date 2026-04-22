@@ -1,0 +1,10 @@
+name: Hello World Action
+description: A tiny reusable GitHub Action that prints hello world.
+
+inputs: {}
+
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "hello world"
